@@ -1,0 +1,9 @@
+name: 'Slack Notifier'
+description: 'Send slack notifications easly'
+author: 'Aram Kocharyan '
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'bell'
+  color: 'blue'
