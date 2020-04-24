@@ -62,4 +62,4 @@ You can see the action block with all variables as below:
 
 [MIT](LICENSE) © 2019 PM Agenture
 
-<sub><sup>The project is forked from the following [project] [https://github.com/rtCamp/action-slack-notify)</sup></sub>
+<sub><sup> The project is motivated and forked from the following [project](https://github.com/rtCamp/action-slack-notify)</sup></sub>
