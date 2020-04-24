@@ -38,7 +38,7 @@ Variable       | Default                                               | Purpose
 SLACK_CHANNEL  | Set during Slack webhook creation                     | Specify Slack channel in which message needs to be sent
 PRIMARY_SLACK_CHANNEL  | Set during Slack webhook creation                     | You might want to send some of the notifications to primary channel as well instead of "log" channel
 SLACK_USERNAME | `PM's Bot`                                               | The name of the sender of the message. Does not need to be a "real" username
-SLACK_ICON     | ![default Avatar](https://avatars1.githubusercontent.com/u/63812035?s=200&v=4) | User/Bot icon shown with Slack message
+SLACK_ICON     | ![default Avatar](https://avatars1.githubusercontent.com/u/63812035?s=32&v=4) | User/Bot icon shown with Slack message
 SLACK_COLOR    | `good` (green)                                        | You can pass an RGB value like `#efefef` which would change color on left side vertical line of Slack message.
 SLACK_MESSAGE  | Generated from git commit message.                    | The main Slack message in attachment. It is advised not to override this.
 SLACK_TITLE    | Message                                               | Title to use before main Slack message
@@ -62,4 +62,4 @@ You can see the action block with all variables as below:
 
 [MIT](LICENSE) © 2019 PM Agenture
 
-<sub><sup>The project is forked from the following [project][https://github.com/rtCamp/action-slack-notify)</sup></sub>
+<sub><sup>The project is forked from the following [project] [https://github.com/rtCamp/action-slack-notify)</sup></sub>
