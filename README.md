@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Notify Slack
-      uses: drilonrecica/action-slack-notify@0.0.3
+      uses: pmagentur/pm_slack_notifier@v0.1
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
 ```
