@@ -3,7 +3,7 @@ description: 'Send slack notifications easly'
 author: 'Aram Kocharyan '
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://pmaram/pm_slack_notifier:latest'
 branding:
   icon: 'bell'
   color: 'blue'
